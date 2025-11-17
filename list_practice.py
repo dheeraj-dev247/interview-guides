@@ -1,19 +1,9 @@
-# # List comprehension
+nums = [1,2,3,4,5]
 
-# nums= [1,2,3,4]
-
-# squares = [x**2 for x in nums if x%2==0]
+squares = [x*x for x in nums]
 
 # print(squares)
 
+cubes = {x:x**3 for x in range(1,100)}
 
-# # Nested example
-
-# matrix = [[1,2,3], [4,5,6]]
-# singleArr = [num for arr in matrix for num in arr]
-# print(singleArr)
-
-
-nums = [1, 2, 3, 4]
-rev = nums[::-1]
-print(rev)
+print(cubes)
